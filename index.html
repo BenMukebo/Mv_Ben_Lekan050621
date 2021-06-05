@@ -4,29 +4,42 @@
     <meta charset="UTF-8">
     <title>Build a Product Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <!-- <h1>Hello World!, we are software engineers</h1> -->
     <header id="header">
-      <div>
-        <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
-      </div>
+      <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
       <nav id="nav-bar">
-        <ul>
-          <li class="nav-link" ><a href="#form">Features</a></li>
-          <li class="nav-link"><a href="#video">How It Works</a></li>
-          <li class="nav-link"><a href="#email">Pricing</a></li>
-        </ul>
+        <ol>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ol>
       </nav>
     </header>
-    
-    <video  id="video" src="./resources/mov_bbb.mp4" autoplay="true" controls ></video>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input type="email" id="email" name="email" placeholder="Enter your Email">
-      <input type="submit" id="submit">
-    </form>
+
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" name="email" placeholder="Enter your Email">
+        <input type="submit" id="submit">
+      </form>
+      <div class='video-div'>
+        <video id="video" src="./resources/mov_bbb.mp4" autoplay="true" controls ></video>
+      </div>
+      
+
+      <section id="features">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quas nesciunt ab numquam alias vero deserunt totam odio eius incidunt ad eos expedita dolorem quisquam suscipit velit minus, temporibus est.</p>
+      </section>
+
+      <section id='how-it-works'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae amet officiis rerum laborum necessitatibus totam eius vel hic iste nobis! Laudantium non deserunt officiis quidem! Fuga unde eum totam distinctio?</p>
+      </section>
+      <section id='pricing'>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt tempore amet molestiae, facere blanditiis ratione obcaecati ut labore nisi neque, explicabo sequi optio, voluptatum ipsam. Accusantium consequuntur architecto unde consectetur.</p>
+      </section>
 
     <script  src="js/index.js"></script>
   </body>
