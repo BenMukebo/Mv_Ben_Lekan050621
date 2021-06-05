@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header img{
+    width: 400px;
+}
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+nav ul li{
+    
+}
+ul li a{
+    text-decoration-line: none;
+    padding: 0 7px;
+    font-size: 18px;
+    color: #000;
+}
+
+@media (min-width: 786px){
+
+    video{
+        width: 100%;
+    }
+
+}

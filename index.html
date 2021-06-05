@@ -2,13 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Build a Product Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>Hello World!, we are software engineers</h1>
+    <!-- <h1>Hello World!, we are software engineers</h1> -->
+    <header id="header">
+      <div>
+        <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link" ><a href="#form">Features</a></li>
+          <li class="nav-link"><a href="#video">How It Works</a></li>
+          <li class="nav-link"><a href="#email">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <video  id="video" src="./resources/mov_bbb.mp4" autoplay="true" controls ></video>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" name="email" placeholder="Enter your Email">
+      <input type="submit" id="submit">
+    </form>
+
     <script  src="js/index.js"></script>
   </body>
 </html>
